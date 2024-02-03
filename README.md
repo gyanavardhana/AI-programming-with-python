@@ -24,6 +24,31 @@ This repository contains code for training and using an image classifier based o
 
 3. **Utility Functions**: The `utils.py` script provides various utility functions used in training and prediction tasks.
 
+## Running on Google Colab
+
+To run this project on Google Colab, follow these steps:
+
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Click on "File" > "Open Notebook". or
+3. paste the link of the public Jupyter notebook provided below:
+   - [Public Jupyter Notebook Link](https://colab.research.google.com/drive/1cBMladdWBoiQQXb1VTTO3CDzrYcasEVP?usp=sharing)
+4. Make sure to upload the required `cat_to_name.json` file.
+5. Follow the instructions in the notebook to execute the code cells for training and prediction.
+
+Please note that the `cat_to_name.json` file containing mappings of category labels to flower names should be uploaded to Google Colab before running the notebook.
+
+Before running the notebook, change the current runtime to T4 GPU for faster training. To change the runtime:
+- Click on "Runtime" > "Change runtime type".
+- Select "GPU" from the "Hardware accelerator" dropdown menu.
+- Click "Save".
+
+Please note that training epochs may vary based on the runtime and dataset size. Larger datasets and slower runtimes may require longer training epochs.
+
+the training of epochs will be similar to this screenshot below:
+
+![image](https://github.com/gyanavardhana/AI-programming-with-python/assets/89439095/ce85506d-023e-46a9-9067-36108179773a)
+
+
 ## Dataset
 
 The dataset used for training and testing the image classifier consists of flower images. The dataset is organized into training, validation, and testing sets, each containing images of different flower species.
@@ -36,6 +61,9 @@ For practicing and running the code, Google Colab and Kaggle environments were u
 
 The project uses PyTorch, a powerful open-source machine learning library, and leverages pre-trained models available in the torchvision module. Special thanks to the developers and contributors of PyTorch and torchvision for their valuable contributions.
 
-For any questions or feedback, please feel free to contact the project maintainer.
+For any questions or feedback, please feel free to contact 
+# Contact:
+- mail: gyanavardhanmamidisetti@gmail.com
+- github usernames: gyanavardhana
 
 Thank you for your interest in this image classifier project!
