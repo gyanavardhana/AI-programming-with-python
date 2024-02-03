@@ -44,11 +44,6 @@ Before running the notebook, change the current runtime to T4 GPU for faster tra
 
 Please note that training epochs may vary based on the runtime and dataset size. Larger datasets and slower runtimes may require longer training epochs.
 
-the training of epochs will be similar to this screenshot below:
-
-![image](https://github.com/gyanavardhana/AI-programming-with-python/assets/89439095/ce85506d-023e-46a9-9067-36108179773a)
-
-
 ## Dataset
 
 The dataset used for training and testing the image classifier consists of flower images. The dataset is organized into training, validation, and testing sets, each containing images of different flower species.
