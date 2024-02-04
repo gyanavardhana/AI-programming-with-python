@@ -44,6 +44,21 @@ Before running the notebook, change the current runtime to T4 GPU for faster tra
 
 Please note that training epochs may vary based on the runtime and dataset size. Larger datasets and slower runtimes may require longer training epochs.
 
+## Sample Training Image
+![Screenshot 2024-02-04 002902](https://github.com/gyanavardhana/AI-programming-with-python/assets/89439095/22baab2c-df19-471d-b910-20b7c20f88f9)
+
+## Testing Model Accuracy
+![image](https://github.com/gyanavardhana/AI-programming-with-python/assets/89439095/c61c89e9-9fc2-4de3-8e62-fe72d78f1ca6)
+
+## Image Testing
+- Give the path of the Image which you want to test here.
+![image](https://github.com/gyanavardhana/AI-programming-with-python/assets/89439095/4b0fc4c1-97ef-4a43-9b20-8d6e03828040)
+
+## FInal Output of Image Breed
+![image](https://github.com/gyanavardhana/AI-programming-with-python/assets/89439095/f38fb116-2d9c-49a0-9501-3826f7b19cb6)
+
+
+
 ## Dataset
 
 The dataset used for training and testing the image classifier consists of flower images. The dataset is organized into training, validation, and testing sets, each containing images of different flower species.
